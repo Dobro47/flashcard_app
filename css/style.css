@@ -1,0 +1,64 @@
+body {
+    background-image: url(https://www.tornabuoni1.com/wp-content/uploads/Florence-beautiful_wp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subject {
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(247, 244, 67);
+    font-style: italic;
+}
+
+.title {
+    text-align: center;
+    color:white;
+}
+
+.term {
+    border: solid 5px rgb(185, 104, 67);
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.definition {
+    border: solid 5px rgb(11, 177, 219);
+    background: rgb(29, 189, 135);
+    color: snow;
+    border-radius: 15px;
+    text-align: center;
+    width: 45%;
+    margin:auto;
+    margin-top: 100px;
+    display: none;
+}
+
+
+.paprika-regular {
+  font-family: "Paprika", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.button {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    color: white;
+    background-color: deepskyblue;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    transform:scale(1.1);
+}
